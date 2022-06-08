@@ -62,8 +62,13 @@
 .text-small{
     color: aquamarine;
 }
+.firstsection{
+    height: 100vh;
+}
 .box-main{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
