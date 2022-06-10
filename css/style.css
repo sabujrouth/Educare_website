@@ -52,6 +52,7 @@
 
 .rightnav {
     width: 50%;
+    padding: 0 25px;
     text-align: right;
 }
 
@@ -69,12 +70,12 @@
 }
 
 .text-big {
-    color: aqua;
+    color: darkgreen;
     font-size: 40px;
 }
 
 .text-small {
-    color: darkkhaki;
+    color: blue;
     font-size: 18px;
 }
 
@@ -90,7 +91,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 50%;
     margin: auto;
-    height: 80%;
+    height: 60%;
 }
 
 .firstHalf {
@@ -114,9 +115,25 @@
 }
 
 .btn{
-    padding: 8px 20px;
-    margin: 7px 0;
-    border: 2px solid blueviolet;
+    padding: 6px 20px;
+    margin: 8px 3px;
+    border: 2px solid white;
     border-radius: 8px;
     font-size: 15px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.secRight{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
 }
