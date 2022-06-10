@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -35,7 +36,8 @@
 .nav-list li {
     list-style: none;
     padding: 26px 30px;
-
+    font-family: monospace;
+    font-size: large;
 }
 
 .nav-list li a {
@@ -64,19 +66,21 @@
 }
 
 .background {
-    background: rgba(0, 0, 0, 0.7) url(../img/bg.jpg);
+    background: rgba(0, 0, 0, 0.2) url(../img/bg.jpg);
     background-size: cover;
     background-blend-mode: darken;
 }
 
 .text-big {
-    color: darkgreen;
+    color: skyblue;
+    font-family: cursive;
     font-size: 40px;
 }
 
 .text-small {
-    color: blue;
+    color: #ffccf3;
     font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .firstsection {
@@ -123,17 +127,34 @@
     background: none;
     color: white;
     cursor: pointer;
+    font-family: monospace;
 }
 .btn-sm{
     padding: 6px 10px;
     vertical-align: middle;
 }
 
-.secRight{
+.section{
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     max-width: 80%;
     margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.sectionTag{
+    font-size: 40px;
+    font-family: cursive;
+}
+.sectionSubTag{
+    font-size: 18px;
+}
+
+.paras{
+    
 }
