@@ -114,7 +114,7 @@
 
 .secondHalf img {
     width: 135%;
-    border: 4px solid skyblue;
+    border: 3px solid skyblue;
     border-radius: 25px;
     display: block;
     margin: 11%;
@@ -151,15 +151,25 @@
     flex-direction: row-reverse;
 }
 
-.sectionTag {
+.sectionTag1 {
     font-size: 40px;
     font-family: cursive;
     padding: 0px 15px 38px 10px;
 }
+.sectionTag2 {
+    font-size: 40px;
+    font-family: cursive;
+    padding: 0px 0px 35px 10px;
+}
 
-.sectionSubTag {
+.sectionSubTag1 {
     font-size: 18px;
     padding: 25px 10px 0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sectionSubTag2 {
+    font-size: 18px;
+    padding: 0px 10px 20px 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -167,4 +177,9 @@
 
 .thumbnail img {
     width: 440px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.body{
+    background-color: #ccffff;
 }
