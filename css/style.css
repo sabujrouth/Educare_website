@@ -156,6 +156,7 @@
     font-family: cursive;
     padding: 0px 15px 38px 10px;
 }
+
 .sectionTag2 {
     font-size: 40px;
     font-family: cursive;
@@ -167,6 +168,7 @@
     padding: 25px 10px 0px 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .sectionSubTag2 {
     font-size: 18px;
     padding: 0px 10px 20px 10px;
@@ -180,6 +182,28 @@
     border: 2px solid red;
     border-radius: 10px;
 }
-.body{
+
+.color {
     background-color: #ccffff;
+}
+
+.contact {
+    background-color: aliceblue;
+    height: 34vh;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form {
+    max-width: 344px;
+    margin: auto;
+}
+
+.form input {
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 5px;
 }
