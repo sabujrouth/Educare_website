@@ -135,11 +135,11 @@
 }
 
 .section{
-    height: 500px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -150,11 +150,18 @@
 .sectionTag{
     font-size: 40px;
     font-family: cursive;
+    padding: 0px 15px 38px 10px;
 }
 .sectionSubTag{
     font-size: 18px;
+    padding: 25px 10px 0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .paras{
     
+}
+
+.thumbnail img{
+    width: 440px;
 }
