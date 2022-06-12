@@ -137,6 +137,12 @@
     vertical-align: middle;
 }
 
+.btn-dark {
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
 .section {
     height: 400px;
     display: flex;
@@ -183,25 +189,26 @@
     border-radius: 10px;
 }
 
-.color {
-    background-color: #ccffff;
-}
-
 .contact {
-    background-color: aliceblue;
-    height: 34vh;
+    background-color: #e6fff7;
+    height: 520px;
 }
 
 .text-center {
     text-align: center;
+    padding: 30px 0px 0px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
 }
 
 .form {
-    max-width: 344px;
-    margin: auto;
+    max-width: 500px;
+    margin: 42px auto;
 }
 
-.form input {
+.form-input {
+    margin: 10px 0px;
+    padding: 5px 3px;
     width: 100%;
     font-size: 19px;
     border: 2px solid gray;
