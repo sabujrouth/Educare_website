@@ -97,7 +97,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 50%;
     margin: auto;
-    height: 60%;
+    height: 80%;
 }
 
 .firstHalf {
@@ -129,7 +129,7 @@
     background: none;
     color: white;
     cursor: pointer;
-    font-family: monospace;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .btn-sm {
@@ -213,4 +213,14 @@
     font-size: 19px;
     border: 2px solid gray;
     border-radius: 5px;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a;
+    color: white;
 }
