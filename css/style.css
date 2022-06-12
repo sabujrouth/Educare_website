@@ -28,7 +28,7 @@
 }
 
 .nav-list {
-    width: 50%;
+    width: 70%;
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -55,8 +55,8 @@
 }
 
 .rightnav {
-    width: 50%;
-    padding: 0 25px;
+    width: 30%;
+    padding: 0px 25px;
     text-align: right;
 }
 
@@ -208,7 +208,7 @@
 
 .form-input {
     margin: 10px 0px;
-    padding: 5px 3px;
+    padding: 5px 10px;
     width: 100%;
     font-size: 19px;
     border: 2px solid gray;
@@ -221,6 +221,44 @@
     font-family: 'Ubuntu', sans-serif;
     display: flex;
     justify-content: center;
-    background-color: #1a1a1a;
+    background-color: #333333;
     color: white;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15%;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1140px) {
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
 }
