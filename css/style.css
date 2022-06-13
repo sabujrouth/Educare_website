@@ -25,6 +25,7 @@
     position: sticky;
     top: 0;
     cursor: pointer;
+
 }
 
 .nav-list {
@@ -202,7 +203,7 @@
 }
 
 .form {
-    max-width: 500px;
+    max-width: 62%;
     margin: 42px auto;
 }
 
@@ -225,14 +226,15 @@
     color: white;
 }
 
-.burger{
+.burger {
     display: none;
     position: absolute;
     cursor: pointer;
     right: 5%;
     top: 15%;
 }
-.line{
+
+.line {
     width: 33px;
     background-color: white;
     height: 4px;
@@ -240,25 +242,38 @@
 }
 
 @media only screen and (max-width: 1140px) {
-    .nav-list{
+    .nav-list {
         flex-direction: column;
     }
-    .navbar{
+
+    .navbar {
+        height: 447px;
         flex-direction: column;
+        transition: all 0.7s ease-out;
     }
-    .rightnav{
+
+    .rightnav {
         text-align: center;
     }
-    #search{
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    #search {
         width: 100%;
     }
-    .burger{
+
+    .burger {
         display: block;
     }
-    .h-nav-resp{
+
+    .h-nav-resp {
         height: 72px;
     }
-    .v-class-resp{
+
+    .v-class-resp {
         opacity: 0;
     }
 }
