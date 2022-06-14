@@ -145,7 +145,7 @@
 }
 
 .section {
-    height: 400px;
+    height: 360px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -275,5 +275,33 @@
 
     .v-class-resp {
         opacity: 0;
+    }
+
+    .secondHalf img {
+        width: 150%;
+        border: 3px solid skyblue;
+        display: block;
+        margin: 11%;
+    }
+
+    .section {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .text-big {
+        text-align: center;
+    }
+
+    .text-small {
+        text-align: center;
+    }
+
+    .buttons {
+        text-align: center;
+    }
+
+    .paras {
+        padding: 0px;
     }
 }
