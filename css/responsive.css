@@ -14,7 +14,7 @@
     }
 
     .logo img {
-        width: 30%;
+        width: 100%;
         border: 3px solid white;
         border-radius: 50px;
         margin: 5px;
@@ -41,16 +41,21 @@
         opacity: 0;
     }
 
+    .secondHalf {
+        width: 50%;
+    }
+
     .secondHalf img {
-        width: 200%;
+        width: 100%;
         border: 3px solid skyblue;
         display: block;
-        margin: 11%;
+        margin: 0%;
     }
 
     .section {
         flex-direction: column-reverse;
         height: auto;
+        padding: 25px;
     }
 
     .text-big {
