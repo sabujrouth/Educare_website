@@ -40,8 +40,8 @@
 .nav-list li {
     list-style: none;
     padding: 26px 30px;
-    font-family: monospace;
-    font-size: large;
+    font-family: sans-serif;
+    font-size: medium;
 }
 
 .nav-list li a {
@@ -183,7 +183,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.paras {}
 
 .thumbnail img {
     width: 440px;
@@ -241,4 +240,3 @@
     height: 4px;
     margin: 5px 3px;
 }
-
